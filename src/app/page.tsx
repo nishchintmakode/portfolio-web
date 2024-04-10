@@ -4,7 +4,7 @@ import AboutSection from "@/components/About";
 import Qualifications from "@/components/Qualifications";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
 import {
   Card,
   CardContent,
@@ -23,6 +23,7 @@ export default function Home() {
         <AboutSection />
         <Qualifications />
         <Projects />
+        <Separator />
       </div>
       <Footer />
     </main>

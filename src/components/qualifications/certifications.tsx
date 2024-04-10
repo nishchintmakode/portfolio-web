@@ -10,7 +10,7 @@ import {
 
 const Certifications = () => {
   return (
-    <div className="md:mt-2 md:w-1/2">
+    <div className="md:mt-2 md:w-1/1">
       <Card className="w-full">
         <CardHeader>
           <CardTitle>Certifications</CardTitle>
