@@ -12,7 +12,7 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+    <section className="w-full grid grid-cols-1 gap-4 mb-8">
       <Card className="w-full">
         <CardHeader>
           <CardTitle>Work</CardTitle>

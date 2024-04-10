@@ -5,14 +5,6 @@ import Qualifications from "@/components/Qualifications";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
 import { Separator } from "@/components/ui/separator";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 
 export default function Home() {
   return (
