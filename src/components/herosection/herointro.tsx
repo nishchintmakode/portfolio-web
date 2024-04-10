@@ -7,8 +7,7 @@ const Herointro = () => {
         Hi, I&#39;m Nishchint!
       </h1>
       <p className="text-lg mt-4 mb-6 md:text-2xl">
-        I&#39;m a{" "}
-        <span className="font-semibold text-gray-600">Software Engineer </span>
+        I&#39;m a <span className="font-bold">Software Engineer </span>
         based in Birmingham, UK. Working towards creating software that makes
         life easier and more meaningful.
       </p>
