@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/Herosection";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -11,9 +12,10 @@ import {
 
 export default function Home() {
   return (
-    <main>
+    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
       <h1 className="text-2xl">Hello, World</h1>
       <Navbar />
+      <HeroSection />
     </main>
   );
 }
