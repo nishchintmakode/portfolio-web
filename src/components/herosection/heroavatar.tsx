@@ -21,6 +21,15 @@ const Heroavatar = () => {
               CV
             </Button>
           </Link>
+          <Link href="mailto:nishchintsmakode@gmail.com">
+            <Button
+              className="bg-gray-300 rounded-full"
+              variant="outline"
+              size="icon"
+            >
+              <Mail className="h-5 w-5" />
+            </Button>
+          </Link>
           <Link href="https://www.linkedin.com/in/nishchintmakode/">
             <Button
               className="bg-gray-300 rounded-full"
@@ -37,15 +46,6 @@ const Heroavatar = () => {
               size="icon"
             >
               <Github className="h-5 w-5" />
-            </Button>
-          </Link>
-          <Link href="mailto:nishchintsmakode@gmail.com">
-            <Button
-              className="bg-gray-300 rounded-full"
-              variant="outline"
-              size="icon"
-            >
-              <Mail className="h-5 w-5" />
             </Button>
           </Link>
         </div>
