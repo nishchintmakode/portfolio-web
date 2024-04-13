@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <header className="w-full max-w-4xl">
       <div className="flex justify-between items-center">
-        <div className="text-2xl font-bold">NM</div>
+        <div className="text-2xl font-bold">
+          <Link href="/">NM</Link>
+        </div>
         <nav className="hidden md:flex space-x-4">
           <Link className="text-gray-600 hover:text-gray-900" href="#about">
             About

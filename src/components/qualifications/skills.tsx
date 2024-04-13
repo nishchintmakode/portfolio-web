@@ -16,8 +16,10 @@ const Skills = () => {
           <CardTitle>Skills</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-3 gap-2">
-            <div className="h-8 bg-gray-200 rounded col-span-1" />
+          <div className="grid grid-cols-4 gap-2">
+            <div className="h-8 bg-gray-200 text-center rounded col-span-1">
+              Java
+            </div>
             <div className="h-8 bg-gray-200 rounded col-span-2" />
             <div className="h-8 bg-gray-200 rounded col-span-1" />
             <div className="h-8 bg-gray-200 rounded col-span-1" />

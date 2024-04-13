@@ -30,7 +30,7 @@ const Projects = () => {
               <Linkedin className="h-5 w-5" />
             </Button>
           </Link>
-          <Link href="https://www.github.com/in/nishchintmakode/">
+          <Link href="https://www.github.com/nishchintmakode/">
             <Button
               className="bg-gray-300 rounded-full"
               variant="outline"
