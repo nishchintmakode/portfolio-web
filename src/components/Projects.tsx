@@ -7,13 +7,17 @@ import {
   CardContent,
   CardFooter,
 } from "./ui/card";
+import { FolderGit } from "lucide-react";
 
 const Projects = () => {
   return (
     <section id="projects" className="w-full mb-8">
       <Card>
         <CardHeader>
-          <CardTitle>Projects</CardTitle>
+          <CardTitle>
+            <FolderGit />
+            Projects
+          </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="flex space-x-4">

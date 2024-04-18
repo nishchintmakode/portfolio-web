@@ -7,19 +7,23 @@ import {
   CardContent,
   CardFooter,
 } from "../ui/card";
+import { Badge } from "lucide-react";
 
 const Certifications = () => {
   return (
     <div className="md:mt-2 md:w-1/1">
       <Card className="w-full">
         <CardHeader>
-          <CardTitle>Certifications</CardTitle>
+          <CardTitle>
+            <Badge />
+            Certifications
+          </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="h-10 bg-gray-200 rounded w-full" />
-            <div className="h-10 bg-gray-200 rounded w-full" />
-            <div className="h-10 bg-gray-200 rounded w-full" />
+            <div className="h-10 border border-gray-200 rounded-lg w-full" />
+            <div className="h-10 border border-gray-200 rounded-lg w-full" />
+            <div className="h-10 border border-gray-200 rounded-lg w-full" />
           </div>
         </CardContent>
         <CardFooter>

@@ -7,6 +7,8 @@ import {
   CardTitle,
   CardFooter,
 } from "../ui/card";
+import { Briefcase } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 import { Separator } from "../ui/separator";
 import Image from "next/image";
 
@@ -15,13 +17,16 @@ const Experience = () => {
     <section className="w-full grid grid-cols-1 gap-4 mb-8">
       <Card className="w-full">
         <CardHeader>
-          <CardTitle>Work</CardTitle>
+          <CardTitle>
+            <Briefcase />
+            Work
+          </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="h-10 bg-gray-200 rounded w-full" />
-            <div className="h-10 bg-gray-200 rounded w-full" />
-            <div className="h-10 bg-gray-200 rounded w-full" />
+            <div className="h-10 border border-gray-200 rounded-lg w-full" />
+            <div className="h-10 border border-gray-200 rounded-lg w-full" />
+            <div className="h-10 border border-gray-200 rounded-lg w-full" />
           </div>
         </CardContent>
         <CardFooter>
@@ -32,12 +37,15 @@ const Experience = () => {
       </Card>
       <Card className="w-full">
         <CardHeader>
-          <CardTitle>Education</CardTitle>
+          <CardTitle>
+            <GraduationCap />
+            Education
+          </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="h-10 bg-gray-200 rounded w-full" />
-            <div className="h-10 bg-gray-200 rounded w-full" />
+            <div className="h-10 border border-gray-200 rounded-lg w-full" />
+            <div className="h-10 border border-gray-200 rounded-lg w-full" />
           </div>
         </CardContent>
       </Card>

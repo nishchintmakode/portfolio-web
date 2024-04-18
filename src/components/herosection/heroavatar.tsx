@@ -9,7 +9,7 @@ import { Mail } from "lucide-react";
 const Heroavatar = () => {
   return (
     <div>
-      <div className="w-60 h-60 justify-center bg-gray-200 rounded-full" />
+      <div className="w-60 h-60 bg-gray-200 dark:bg-gray-700 rounded-full flex items-center justify-center mx-auto" />
       <div className="flex justify-center space-x-2 mt-4">
         <div className="flex justify-center space-x-1">
           <Link

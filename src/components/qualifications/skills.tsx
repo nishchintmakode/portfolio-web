@@ -7,13 +7,17 @@ import {
   CardContent,
   CardFooter,
 } from "../ui/card";
+import { SquareCode } from "lucide-react";
 
 const Skills = () => {
   return (
     <div className="md:mt-2 md:w-1/1">
       <Card className="w-full">
         <CardHeader>
-          <CardTitle>Skills</CardTitle>
+          <CardTitle>
+            <SquareCode />
+            Skills
+          </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-4 gap-2">
