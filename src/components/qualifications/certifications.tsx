@@ -15,8 +15,10 @@ const Certifications = () => {
       <Card className="w-full">
         <CardHeader>
           <CardTitle>
-            <Badge />
-            Certifications
+            <div className="flex items-center">
+              <Badge className="mr-2" />
+              Certifications
+            </div>
           </CardTitle>
         </CardHeader>
         <CardContent>

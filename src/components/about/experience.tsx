@@ -18,8 +18,10 @@ const Experience = () => {
       <Card className="w-full">
         <CardHeader>
           <CardTitle>
-            <Briefcase />
-            Work
+            <div className="flex items-center">
+              <Briefcase className="mr-2" />
+              Work
+            </div>
           </CardTitle>
         </CardHeader>
         <CardContent>
@@ -38,8 +40,10 @@ const Experience = () => {
       <Card className="w-full">
         <CardHeader>
           <CardTitle>
-            <GraduationCap />
-            Education
+            <div className="flex items-center">
+              <GraduationCap className="mr-2" />
+              Education
+            </div>
           </CardTitle>
         </CardHeader>
         <CardContent>

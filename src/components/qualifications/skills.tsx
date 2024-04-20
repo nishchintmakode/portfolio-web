@@ -15,8 +15,10 @@ const Skills = () => {
       <Card className="w-full">
         <CardHeader>
           <CardTitle>
-            <SquareCode />
-            Skills
+            <div className="flex items-center">
+              <SquareCode className="mr-2" />
+              Skills
+            </div>
           </CardTitle>
         </CardHeader>
         <CardContent>

@@ -15,15 +15,17 @@ const Projects = () => {
       <Card>
         <CardHeader>
           <CardTitle>
-            <FolderGit />
-            Projects
+            <div className="flex items-center">
+              <FolderGit className="mr-2" />
+              Projects
+            </div>
           </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="flex space-x-4">
-            <div className="h-24 bg-gray-200 rounded w-1/3" />
-            <div className="h-24 bg-gray-200 rounded w-1/3" />
-            <div className="h-24 bg-gray-200 rounded w-1/3" />
+            <div className="h-24 border border-gray-200 rounded-lg w-1/3" />
+            <div className="h-24 border border-gray-200 rounded-lg w-1/3" />
+            <div className="h-24 border border-gray-200 rounded-lg w-1/3" />
           </div>
         </CardContent>
         <CardFooter>
