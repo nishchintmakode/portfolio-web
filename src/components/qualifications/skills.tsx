@@ -7,6 +7,7 @@ import {
   CardContent,
   CardFooter,
 } from "../ui/card";
+import { Badge } from "../ui/badge";
 import { SquareCode } from "lucide-react";
 
 const Skills = () => {
@@ -21,19 +22,25 @@ const Skills = () => {
             </div>
           </CardTitle>
         </CardHeader>
-        <CardContent>
-          <div className="grid grid-cols-4 gap-2">
-            <div className="h-8 bg-gray-200 text-center rounded col-span-1">
-              Java
-            </div>
-            <div className="h-8 bg-gray-200 rounded col-span-2" />
-            <div className="h-8 bg-gray-200 rounded col-span-1" />
-            <div className="h-8 bg-gray-200 rounded col-span-1" />
-            <div className="h-8 bg-gray-200 rounded col-span-1" />
-            <div className="h-8 bg-gray-200 rounded col-span-2" />
-            <div className="h-8 bg-gray-200 rounded col-span-1" />
-            <div className="h-8 bg-gray-200 rounded col-span-1" />
-          </div>
+        <CardContent className="grid grid-cols-4 gap-2">
+          <Badge className="flex items-center gap-2">
+            <div className="font-medium">JavaScript</div>
+          </Badge>
+          <Badge className="flex items-center gap-2">
+            <div className="font-medium">React</div>
+          </Badge>
+          <Badge className="flex items-center gap-2">
+            <div className="font-medium">Node.js</div>
+          </Badge>
+          <Badge className="flex items-center gap-2">
+            <div className="font-medium">TypeScript</div>
+          </Badge>
+          <Badge className="flex items-center gap-2">
+            <div className="font-medium">SQL</div>
+          </Badge>
+          <Badge className="flex items-center gap-2">
+            <div className="font-medium">Git</div>
+          </Badge>
         </CardContent>
       </Card>
     </div>

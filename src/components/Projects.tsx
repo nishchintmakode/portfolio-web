@@ -8,6 +8,7 @@ import {
   CardFooter,
 } from "./ui/card";
 import { FolderGit } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const Projects = () => {
   return (
@@ -21,11 +22,48 @@ const Projects = () => {
             </div>
           </CardTitle>
         </CardHeader>
-        <CardContent>
-          <div className="flex space-x-4">
-            <div className="h-24 border border-gray-200 rounded-lg w-1/3" />
-            <div className="h-24 border border-gray-200 rounded-lg w-1/3" />
-            <div className="h-24 border border-gray-200 rounded-lg w-1/3" />
+        <CardContent className="grid grid-cols-1 gap-4">
+          <div className="flex items-center gap-4">
+            <div>
+              <div className="font-medium">
+                Personality prediction using sentiment analysis
+              </div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">
+                Sentiment-based personality profiling, using CNN and LSTM models
+                to predict Big Five traits.
+              </div>
+              <div className="flex items-center gap-1 mt-1">
+                <ExternalLink className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center gap-4">
+            <div>
+              <div className="font-medium">
+                Lung disease detection using CNN
+              </div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">
+                Deep learning model, based on convolutional neural networks
+                (CNNs), to classify lung diseases from X-ray images.
+              </div>
+              <div className="flex items-center gap-1 mt-1">
+                <ExternalLink className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center gap-4">
+            <div>
+              <div className="font-medium">
+                Speech Emotion Recognition using MLPClassifier
+              </div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">
+                Multilayer Perceptron (MLP) classification model to detect
+                emotions from human speech.
+              </div>
+              <div className="flex items-center gap-1 mt-1">
+                <ExternalLink className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+              </div>
+            </div>
           </div>
         </CardContent>
         <CardFooter>

@@ -27,9 +27,51 @@ const Experience = () => {
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="h-10 border border-gray-200 rounded-lg w-full" />
-            <div className="h-10 border border-gray-200 rounded-lg w-full" />
-            <div className="h-10 border border-gray-200 rounded-lg w-full" />
+            <div className="flex items-center gap-4">
+              <Avatar>
+                <AvatarImage src="/uob.jpg" alt="uob_logo" />
+                <AvatarFallback>UOB</AvatarFallback>
+              </Avatar>
+              <div className="flex-1">
+                <div className="font-medium">IT AV Assistant</div>
+                <div className="flex justify-between items-center">
+                  <span>University of Birmingham</span>
+                  <div className="flex items-center gap-1">
+                    <span>Sep &#39;23</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-4">
+              <Avatar>
+                <AvatarImage src="/agile.jpg" alt="uob_logo" />
+                <AvatarFallback>UOB</AvatarFallback>
+              </Avatar>
+              <div className="flex-1">
+                <div className="font-medium">Project Intern</div>
+                <div className="flex justify-between items-center">
+                  <span>Agile Connects Pvt. Ltd.</span>
+                  <div className="flex items-center gap-1">
+                    <span>Sep &#39;23</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-4">
+              <Avatar>
+                <AvatarImage src="/credy.jpg" alt="uob_logo" />
+                <AvatarFallback>UOB</AvatarFallback>
+              </Avatar>
+              <div className="flex-1">
+                <div className="font-medium">Python Development Intern</div>
+                <div className="flex justify-between items-center">
+                  <span>Credy</span>
+                  <div className="flex items-center gap-1">
+                    <span>Sep &#39;23</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </CardContent>
         <CardFooter>
