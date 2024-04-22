@@ -45,7 +45,7 @@ const Certifications = () => {
                 <div className="flex justify-between items-center">
                   <span>Google Cloud</span>
                   <div className="flex items-center gap-1">
-                    <span>Mar '24 - Mar '27</span>
+                    <span>Mar &#39;24 - Mar &#39;27</span>
                   </div>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Certifications = () => {
                 <div className="flex justify-between items-center">
                   <span>Google Cloud</span>
                   <div className="flex items-center gap-1">
-                    <span>Mar '24 - Mar '27</span>
+                    <span>Mar &#39;24 - Mar &#39;27</span>
                   </div>
                 </div>
               </div>
@@ -87,7 +87,7 @@ const Certifications = () => {
                 <div className="flex justify-between items-center">
                   <span>IBM</span>
                   <div className="flex items-center gap-1">
-                    <span>Apr '24</span>
+                    <span>Apr &#39;24</span>
                   </div>
                 </div>
               </div>

@@ -61,7 +61,7 @@ const Experience = () => {
                 <div className="flex justify-between items-center">
                   <span>University of Birmingham</span>
                   <div className="flex items-center gap-1">
-                    <span>Sep '23</span>
+                    <span>Sep &#39;23</span>
                   </div>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const Experience = () => {
                 <div className="flex justify-between items-center">
                   <span>R.T.M. Nagpur University</span>
                   <div className="flex items-center gap-1">
-                    <span>Jun '22</span>
+                    <span>Jun &#39;22</span>
                   </div>
                 </div>
               </div>
