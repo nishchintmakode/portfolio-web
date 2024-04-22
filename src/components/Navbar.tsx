@@ -5,7 +5,7 @@ import { ModeToggle } from "./ui/ToogleButton";
 
 const Navbar = () => {
   return (
-    <header className="w-full max-w-4xl">
+    <header className="w-full max-w-5xl">
       <div className="flex justify-between items-center">
         <div className="text-2xl font-bold">
           <Link href="/">NM</Link>
