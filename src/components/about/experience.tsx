@@ -9,6 +9,7 @@ import {
 } from "../ui/card";
 import { Briefcase } from "lucide-react";
 import { GraduationCap } from "lucide-react";
+import { Avatar, AvatarImage, AvatarFallback } from "../ui/avatar";
 import { Separator } from "../ui/separator";
 import Image from "next/image";
 
@@ -48,8 +49,38 @@ const Experience = () => {
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="h-10 border border-gray-200 rounded-lg w-full" />
-            <div className="h-10 border border-gray-200 rounded-lg w-full" />
+            <div className="flex items-center gap-4">
+              <Avatar>
+                <AvatarImage src="/uob.jpg" alt="uob_logo" />
+                <AvatarFallback>UOB</AvatarFallback>
+              </Avatar>
+              <div className="flex-1">
+                <div className="font-medium">
+                  M.Sc. (Advanced Computer Science)
+                </div>
+                <div className="flex justify-between items-center">
+                  <span>University of Birmingham</span>
+                  <div className="flex items-center gap-1">
+                    <span>Sep '23</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-4">
+              <Avatar>
+                <AvatarImage src="/rtmnu.jpg" alt="rtmnu_logo" />
+                <AvatarFallback>NU</AvatarFallback>
+              </Avatar>
+              <div className="flex-1">
+                <div className="font-medium">B.E. (Computer Engineering)</div>
+                <div className="flex justify-between items-center">
+                  <span>R.T.M. Nagpur University</span>
+                  <div className="flex items-center gap-1">
+                    <span>Jun '22</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </CardContent>
       </Card>

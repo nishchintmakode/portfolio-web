@@ -8,6 +8,9 @@ import {
   CardFooter,
 } from "../ui/card";
 import { Badge } from "lucide-react";
+import { Avatar, AvatarImage, AvatarFallback } from "../ui/avatar";
+import { ExternalLink } from "lucide-react";
+import { Separator } from "../ui/separator";
 
 const Certifications = () => {
   return (
@@ -23,9 +26,72 @@ const Certifications = () => {
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="h-10 border border-gray-200 rounded-lg w-full" />
-            <div className="h-10 border border-gray-200 rounded-lg w-full" />
-            <div className="h-10 border border-gray-200 rounded-lg w-full" />
+            <div className="flex items-center gap-4">
+              <Avatar>
+                <AvatarImage src="/google_cloud_logo.jpg" alt="gcp_logo" />
+                <AvatarFallback>GCP</AvatarFallback>
+              </Avatar>
+              <div className="flex-1">
+                <div className="flex items-center font-medium">
+                  Associate Cloud Engineer
+                  <Link
+                    href={
+                      "https://www.credly.com/badges/a03f0ac2-2f43-491a-a1fc-b888b395f991"
+                    }
+                  >
+                    <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                  </Link>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span>Google Cloud</span>
+                  <div className="flex items-center gap-1">
+                    <span>Mar '24 - Mar '27</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-4">
+              <Avatar>
+                <AvatarImage src="/google_cloud_logo.jpg" alt="gcp_logo" />
+                <AvatarFallback>GCP</AvatarFallback>
+              </Avatar>
+              <div className="flex-1">
+                <div className="flex items-center font-medium">
+                  Cloud Digital Leader
+                  <Link
+                    href={
+                      "https://www.credly.com/badges/798713ee-7156-4401-b8d4-a537274821d5"
+                    }
+                  >
+                    <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                  </Link>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span>Google Cloud</span>
+                  <div className="flex items-center gap-1">
+                    <span>Mar '24 - Mar '27</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-4">
+              <Avatar>
+                <AvatarImage src="/ibm_logo.jpg" alt="ibm_logo" />
+                <AvatarFallback>IBM</AvatarFallback>
+              </Avatar>
+              <div className="flex-1">
+                <div className="flex items-center font-medium">
+                  Full Stack Software Developer
+                  <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                </div>
+                <div className="flex justify-between items-center">
+                  <span>IBM</span>
+                  <div className="flex items-center gap-1">
+                    <span>Apr '24</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </CardContent>
         <CardFooter>
