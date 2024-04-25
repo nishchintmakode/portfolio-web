@@ -25,43 +25,55 @@ const Projects = () => {
         <CardContent className="grid grid-cols-1 gap-4">
           <div className="flex items-center gap-4">
             <div>
-              <div className="font-medium">
+              <div className="flex items-center font-medium">
                 Personality prediction using sentiment analysis
+                <Link
+                  href={
+                    "https://github.com/nishchintmakode/personality_prediction_with_sentiment_analysis"
+                  }
+                >
+                  <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                </Link>
               </div>
               <div className="text-sm text-gray-500 dark:text-gray-400">
                 Sentiment-based personality profiling, using CNN and LSTM models
                 to predict Big Five traits.
               </div>
-              <div className="flex items-center gap-1 mt-1">
-                <ExternalLink className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-              </div>
             </div>
           </div>
           <div className="flex items-center gap-4">
             <div>
-              <div className="font-medium">
+              <div className="flex items-center font-medium">
                 Lung disease detection using CNN
+                <Link
+                  href={
+                    "https://github.com/nishchintmakode/lung_disease_detection_cnn"
+                  }
+                >
+                  <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                </Link>
               </div>
               <div className="text-sm text-gray-500 dark:text-gray-400">
                 Deep learning model, based on convolutional neural networks
                 (CNNs), to classify lung diseases from X-ray images.
               </div>
-              <div className="flex items-center gap-1 mt-1">
-                <ExternalLink className="w-4 h-4 text-gray-500 dark:text-gray-400" />
-              </div>
             </div>
           </div>
           <div className="flex items-center gap-4">
             <div>
-              <div className="font-medium">
+              <div className="flex items-center font-medium">
                 Speech Emotion Recognition using MLPClassifier
+                <Link
+                  href={
+                    "https://github.com/nishchintmakode/speech_emotion_recognition"
+                  }
+                >
+                  <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                </Link>
               </div>
               <div className="text-sm text-gray-500 dark:text-gray-400">
                 Multilayer Perceptron (MLP) classification model to detect
                 emotions from human speech.
-              </div>
-              <div className="flex items-center gap-1 mt-1">
-                <ExternalLink className="w-4 h-4 text-gray-500 dark:text-gray-400" />
               </div>
             </div>
           </div>

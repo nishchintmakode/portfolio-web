@@ -7,7 +7,7 @@ import {
   CardContent,
   CardFooter,
 } from "../ui/card";
-import { Badge } from "lucide-react";
+import { BadgeCheck } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "../ui/avatar";
 import { ExternalLink } from "lucide-react";
 import { Separator } from "../ui/separator";
@@ -19,7 +19,7 @@ const Certifications = () => {
         <CardHeader>
           <CardTitle>
             <div className="flex items-center">
-              <Badge className="mr-2" />
+              <BadgeCheck className="mr-2" />
               Certifications
             </div>
           </CardTitle>
