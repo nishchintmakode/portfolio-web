@@ -92,6 +92,24 @@ const Certifications = () => {
                 </div>
               </div>
             </div>
+            <div className="flex items-center gap-4">
+              <Avatar>
+                <AvatarImage src="/ibm_logo.jpg" alt="ibm_logo" />
+                <AvatarFallback>IBM</AvatarFallback>
+              </Avatar>
+              <div className="flex-1">
+                <div className="flex items-center font-medium">
+                  DevOps and Software Engineering
+                  <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                </div>
+                <div className="flex justify-between items-center">
+                  <span>IBM</span>
+                  <div className="flex items-center gap-1">
+                    <span>May &#39;24</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </CardContent>
         <CardFooter>
