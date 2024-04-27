@@ -26,7 +26,7 @@ const Navbar = () => {
           </nav>
           <div className="md:hidden">
             <Popover>
-              <PopoverTrigger asChild>
+              <PopoverTrigger>
                 <Button variant="outline" size="icon">
                   <Menu className="text-gray-600 dark:text-gray-400" />
                 </Button>
