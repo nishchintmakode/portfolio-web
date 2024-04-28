@@ -1,7 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import { Button } from "./ui/button";
-import { PopoverTrigger, PopoverContent, Popover } from "@nextui-org/popover";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./ui/ToogleButton";
 
@@ -25,26 +30,30 @@ const Navbar = () => {
             </Link>
           </nav>
           <div className="md:hidden">
-            <Popover>
-              <PopoverTrigger>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
                 <Button variant="outline" size="icon">
                   <Menu className="text-gray-600 dark:text-gray-400" />
                 </Button>
-              </PopoverTrigger>
-              <PopoverContent className="p-4 space-y-2 bg-white dark:bg-gray-800 rounded-md shadow-lg">
-                <div className="flex flex-col space-y-2">
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end">
+                <DropdownMenuItem>
                   <Link className="nav-link" href="#about">
                     About
                   </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
                   <Link className="nav-link" href="#certifications">
                     Certifications
                   </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
                   <Link className="nav-link" href="#projects">
                     Projects
                   </Link>
-                </div>
-              </PopoverContent>
-            </Popover>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
           <ModeToggle />
         </div>
