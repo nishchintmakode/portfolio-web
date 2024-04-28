@@ -36,7 +36,7 @@ const Navbar = () => {
                   <Menu className="text-gray-600 dark:text-gray-400" />
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end">
+              <DropdownMenuContent align="center">
                 <DropdownMenuItem>
                   <Link className="nav-link" href="#about">
                     About
