@@ -7,18 +7,22 @@ import {
   CardContent,
   CardFooter,
 } from "./ui/card";
+import { Separator } from "./ui/separator";
 import { FolderGit } from "lucide-react";
 import { ExternalLink } from "lucide-react";
 
 const Projects = () => {
   return (
     <section id="projects" className="w-full mb-8">
-      <Card>
+      <Card className="rounded-lg border shadow-md">
         <CardHeader>
-          <CardTitle>
+          <CardTitle className="space-y-2">
             <div className="flex items-center">
               <FolderGit className="mr-2" />
               Projects
+            </div>
+            <div className="flex w-full justify-center items-center">
+              <Separator />
             </div>
           </CardTitle>
         </CardHeader>

@@ -7,6 +7,7 @@ import {
   CardContent,
   CardFooter,
 } from "../ui/card";
+import { Separator } from "../ui/separator";
 import { Badge } from "../ui/badge";
 import { Code } from "lucide-react";
 
@@ -60,12 +61,15 @@ const skills3 = [
 const Skills = () => {
   return (
     <div className="md:mt-2 md:w-1/1">
-      <Card className="w-full">
+      <Card className="w-full rounded-lg border shadow-md">
         <CardHeader>
-          <CardTitle>
+          <CardTitle className="space-y-2">
             <div className="flex items-center">
               <Code className="mr-2" />
               Skills
+            </div>
+            <div className="flex w-full justify-center items-center">
+              <Separator />
             </div>
           </CardTitle>
         </CardHeader>

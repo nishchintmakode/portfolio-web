@@ -16,18 +16,21 @@ import Image from "next/image";
 const Experience = () => {
   return (
     <section className="w-full grid grid-cols-1 gap-4 mb-8">
-      <Card className="w-full">
+      <Card className="w-full rounded-lg border shadow-md">
         <CardHeader>
-          <CardTitle>
+          <CardTitle className="space-y-2">
             <div className="flex items-center">
               <Briefcase className="mr-2" />
               Work
+            </div>
+            <div className="flex w-full justify-center items-center">
+              <Separator />
             </div>
           </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
                 <AvatarImage src="/uob.jpg" alt="uob_logo" />
                 <AvatarFallback>UOB</AvatarFallback>
@@ -42,7 +45,7 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
                 <AvatarImage src="/agile.jpg" alt="uob_logo" />
                 <AvatarFallback>UOB</AvatarFallback>
@@ -57,7 +60,7 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
                 <AvatarImage src="/credy.jpg" alt="uob_logo" />
                 <AvatarFallback>UOB</AvatarFallback>
@@ -80,18 +83,21 @@ const Experience = () => {
           </Link>
         </CardFooter>
       </Card>
-      <Card className="w-full">
+      <Card className="w-full rounded-lg border shadow-md">
         <CardHeader>
-          <CardTitle>
+          <CardTitle className="space-y-2">
             <div className="flex items-center">
               <GraduationCap className="mr-2" />
               Education
+            </div>
+            <div className="flex w-full justify-center items-center">
+              <Separator />
             </div>
           </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
                 <AvatarImage src="/uob.jpg" alt="uob_logo" />
                 <AvatarFallback>UOB</AvatarFallback>
@@ -108,7 +114,7 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
                 <AvatarImage src="/rtmnu.jpg" alt="rtmnu_logo" />
                 <AvatarFallback>NU</AvatarFallback>

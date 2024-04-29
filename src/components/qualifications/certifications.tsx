@@ -15,18 +15,21 @@ import { Separator } from "../ui/separator";
 const Certifications = () => {
   return (
     <div className="md:mt-2 md:w-1/1">
-      <Card className="w-full">
+      <Card className="w-full rounded-lg border shadow-md">
         <CardHeader>
-          <CardTitle>
+          <CardTitle className="space-y-2">
             <div className="flex items-center">
               <BadgeCheck className="mr-2" />
               Certifications
+            </div>
+            <div className="flex w-full justify-center items-center">
+              <Separator />
             </div>
           </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
                 <AvatarImage src="/google_cloud_logo.jpg" alt="gcp_logo" />
                 <AvatarFallback>GCP</AvatarFallback>
@@ -50,7 +53,7 @@ const Certifications = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
                 <AvatarImage src="/google_cloud_logo.jpg" alt="gcp_logo" />
                 <AvatarFallback>GCP</AvatarFallback>
@@ -74,7 +77,7 @@ const Certifications = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
                 <AvatarImage src="/ibm_logo.jpg" alt="ibm_logo" />
                 <AvatarFallback>IBM</AvatarFallback>
@@ -92,7 +95,7 @@ const Certifications = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
                 <AvatarImage src="/ibm_logo.jpg" alt="ibm_logo" />
                 <AvatarFallback>IBM</AvatarFallback>
