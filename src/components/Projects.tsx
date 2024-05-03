@@ -14,7 +14,7 @@ import { ExternalLink } from "lucide-react";
 const Projects = () => {
   return (
     <section id="projects" className="w-full mb-8">
-      <Card className="rounded-lg border shadow-md">
+      <Card className="rounded-lg border shadow">
         <CardHeader>
           <CardTitle className="space-y-2">
             <div className="flex items-center">

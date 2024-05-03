@@ -61,7 +61,7 @@ const skills3 = [
 const Skills = () => {
   return (
     <div className="md:mt-2 md:w-1/1">
-      <Card className="w-full rounded-lg border shadow-md">
+      <Card className="w-full rounded-lg border shadow">
         <CardHeader>
           <CardTitle className="space-y-2">
             <div className="flex items-center">
