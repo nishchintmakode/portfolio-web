@@ -8,7 +8,7 @@ import { Mail } from "lucide-react";
 
 const Projects = () => {
   return (
-    <footer className="w-full max-w-5xl">
+    <footer className="w-full max-w-6xl">
       <Separator className="my-4" />
       <div className="flex justify-between items-center">
         <span className="text-sm text-gray-500">© 2024 Nishchint Makode</span>

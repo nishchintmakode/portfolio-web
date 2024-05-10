@@ -40,37 +40,52 @@ const Experience = () => {
                 <div className="flex justify-between items-center">
                   <span>University of Birmingham</span>
                   <div className="flex items-center gap-1">
-                    <span>Sep &#39;23</span>
+                    <span>Aug &#39;23 - Jan &#39;24</span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
-                <AvatarImage src="/agile.jpg" alt="uob_logo" />
-                <AvatarFallback>UOB</AvatarFallback>
+                <AvatarImage src="/revature.jpg" alt="revature_logo" />
+                <AvatarFallback>REV</AvatarFallback>
+              </Avatar>
+              <div className="flex-1">
+                <div className="font-medium">Software Developer</div>
+                <div className="flex justify-between items-center">
+                  <span>Revature</span>
+                  <div className="flex items-center gap-1">
+                    <span>Mar &#39;22 - Nov &#39;22</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center rounded-md border p-1 gap-4">
+              <Avatar>
+                <AvatarImage src="/agile.jpg" alt="agile_logo" />
+                <AvatarFallback>AGI</AvatarFallback>
               </Avatar>
               <div className="flex-1">
                 <div className="font-medium">Project Intern</div>
                 <div className="flex justify-between items-center">
                   <span>Agile Connects Pvt. Ltd.</span>
                   <div className="flex items-center gap-1">
-                    <span>Sep &#39;23</span>
+                    <span>Aug &#39;21 - Feb &#39;22</span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
-                <AvatarImage src="/credy.jpg" alt="uob_logo" />
-                <AvatarFallback>UOB</AvatarFallback>
+                <AvatarImage src="/credy.jpg" alt="agile_logo" />
+                <AvatarFallback>CRE</AvatarFallback>
               </Avatar>
               <div className="flex-1">
                 <div className="font-medium">Python Development Intern</div>
                 <div className="flex justify-between items-center">
                   <span>Credy</span>
                   <div className="flex items-center gap-1">
-                    <span>Sep &#39;23</span>
+                    <span>May &#39;20 - Jan &#39;21</span>
                   </div>
                 </div>
               </div>
