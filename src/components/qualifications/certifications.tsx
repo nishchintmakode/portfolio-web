@@ -11,6 +11,7 @@ import { BadgeCheck } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "../ui/avatar";
 import { ExternalLink } from "lucide-react";
 import { Separator } from "../ui/separator";
+import { Button } from "../ui/button";
 
 const Certifications = () => {
   return (
@@ -85,7 +86,13 @@ const Certifications = () => {
               <div className="flex-1">
                 <div className="flex items-center font-medium">
                   Full Stack Software Developer
-                  <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                  <Link
+                    href={
+                      "https://www.coursera.org/account/accomplishments/specialization/D3KPQR5FDEQK"
+                    }
+                  >
+                    <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                  </Link>
                 </div>
                 <div className="flex justify-between items-center">
                   <span>IBM</span>
@@ -95,7 +102,7 @@ const Certifications = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center rounded-md border p-1 gap-4">
+            {/* <div className="flex items-center rounded-md border p-1 gap-4">
               <Avatar>
                 <AvatarImage src="/ibm_logo.jpg" alt="ibm_logo" />
                 <AvatarFallback>IBM</AvatarFallback>
@@ -103,7 +110,9 @@ const Certifications = () => {
               <div className="flex-1">
                 <div className="flex items-center font-medium">
                   DevOps and Software Engineering
-                  <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                  <Link href={""}>
+                    <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                  </Link>
                 </div>
                 <div className="flex justify-between items-center">
                   <span>IBM</span>
@@ -112,12 +121,12 @@ const Certifications = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </CardContent>
         <CardFooter>
-          <Link className="text-blue-600 hover:underline" href="#">
-            LinkedIn
+          <Link href="https://www.linkedin.com/in/nishchintmakode">
+            <Button>More on LinkedIn</Button>
           </Link>
         </CardFooter>
       </Card>

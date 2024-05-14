@@ -8,6 +8,7 @@ import {
   CardFooter,
 } from "./ui/card";
 import { Separator } from "./ui/separator";
+import { Button } from "./ui/button";
 import { FolderGit } from "lucide-react";
 import { ExternalLink } from "lucide-react";
 
@@ -83,8 +84,8 @@ const Projects = () => {
           </div>
         </CardContent>
         <CardFooter>
-          <Link className="text-blue-600 hover:underline" href="#">
-            GitHub
+          <Link href="https://github.com/nishchintmakode">
+            <Button>More on GitHub</Button>
           </Link>
         </CardFooter>
       </Card>

@@ -11,6 +11,7 @@ import { Briefcase } from "lucide-react";
 import { GraduationCap } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "../ui/avatar";
 import { Separator } from "../ui/separator";
+import { Button } from "../ui/button";
 import Image from "next/image";
 
 const Experience = () => {
@@ -93,8 +94,8 @@ const Experience = () => {
           </div>
         </CardContent>
         <CardFooter>
-          <Link className="text-blue-600 hover:underline" href="#">
-            LinkedIn
+          <Link href="https://www.linkedin.com/in/nishchintmakode">
+            <Button>More on LinkedIn</Button>
           </Link>
         </CardFooter>
       </Card>
