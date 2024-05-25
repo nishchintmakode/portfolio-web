@@ -31,7 +31,7 @@ const Experience = () => {
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="flex items-center rounded-md border p-1 gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
               <Avatar>
                 <AvatarImage src="/uob.jpg" alt="uob_logo" />
                 <AvatarFallback>UOB</AvatarFallback>
@@ -46,7 +46,7 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center rounded-md border p-1 gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
               <Avatar>
                 <AvatarImage src="/revature.jpg" alt="revature_logo" />
                 <AvatarFallback>REV</AvatarFallback>
@@ -61,7 +61,7 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center rounded-md border p-1 gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
               <Avatar>
                 <AvatarImage src="/agile.jpg" alt="agile_logo" />
                 <AvatarFallback>AGI</AvatarFallback>
@@ -76,7 +76,7 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center rounded-md border p-1 gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
               <Avatar>
                 <AvatarImage src="/credy.jpg" alt="agile_logo" />
                 <AvatarFallback>CRE</AvatarFallback>
@@ -113,7 +113,7 @@ const Experience = () => {
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="flex items-center rounded-md border p-1 gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
               <Avatar>
                 <AvatarImage src="/uob.jpg" alt="uob_logo" />
                 <AvatarFallback>UOB</AvatarFallback>
@@ -130,7 +130,7 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center rounded-md border p-1 gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
               <Avatar>
                 <AvatarImage src="/rtmnu.jpg" alt="rtmnu_logo" />
                 <AvatarFallback>NU</AvatarFallback>

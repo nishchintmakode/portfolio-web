@@ -30,7 +30,7 @@ const Certifications = () => {
         </CardHeader>
         <CardContent>
           <div className="space-y-2">
-            <div className="flex items-center rounded-md border p-1 gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
               <Avatar>
                 <AvatarImage src="/google_cloud_logo.jpg" alt="gcp_logo" />
                 <AvatarFallback>GCP</AvatarFallback>
@@ -54,7 +54,7 @@ const Certifications = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center rounded-md border p-1 gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
               <Avatar>
                 <AvatarImage src="/google_cloud_logo.jpg" alt="gcp_logo" />
                 <AvatarFallback>GCP</AvatarFallback>
@@ -78,7 +78,7 @@ const Certifications = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center rounded-md border p-1 gap-4">
+            <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
               <Avatar>
                 <AvatarImage src="/ibm_logo.jpg" alt="ibm_logo" />
                 <AvatarFallback>IBM</AvatarFallback>
@@ -102,7 +102,7 @@ const Certifications = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="flex items-center rounded-md border p-1 gap-4">
+            {/* <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
               <Avatar>
                 <AvatarImage src="/ibm_logo.jpg" alt="ibm_logo" />
                 <AvatarFallback>IBM</AvatarFallback>
