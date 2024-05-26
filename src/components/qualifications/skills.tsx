@@ -16,6 +16,8 @@ const skills1 = [
   "Java",
   "C",
   "C++",
+  "Go",
+  "Rust",
   "HTML",
   "CSS",
   "JavaScript",
@@ -78,7 +80,7 @@ const Skills = () => {
             {skills1.map((skill, index) => (
               <Badge
                 key={index}
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 shadow-sm"
                 variant="default"
               >
                 <div className="font-medium">{skill}</div>
@@ -89,7 +91,7 @@ const Skills = () => {
             {skills2.map((skill, index) => (
               <Badge
                 key={index}
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 shadow-sm"
                 variant="secondary"
               >
                 <div className="font-medium">{skill}</div>
@@ -100,7 +102,7 @@ const Skills = () => {
             {skills3.map((skill, index) => (
               <Badge
                 key={index}
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 shadow-sm"
                 variant="outline"
               >
                 <div className="font-medium">{skill}</div>
