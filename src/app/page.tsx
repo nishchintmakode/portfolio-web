@@ -4,7 +4,6 @@ import AboutSection from "@/components/About";
 import Qualifications from "@/components/Qualifications";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
-import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   return (
