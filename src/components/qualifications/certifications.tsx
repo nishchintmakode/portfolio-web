@@ -31,7 +31,7 @@ const Certifications = () => {
         <CardContent>
           <div className="space-y-2">
             <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
-              <Avatar>
+              <Avatar className="shadow-md">
                 <AvatarImage src="/google_cloud_logo.jpg" alt="gcp_logo" />
                 <AvatarFallback>GCP</AvatarFallback>
               </Avatar>
@@ -55,7 +55,7 @@ const Certifications = () => {
               </div>
             </div>
             <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
-              <Avatar>
+              <Avatar className="shadow-md">
                 <AvatarImage src="/google_cloud_logo.jpg" alt="gcp_logo" />
                 <AvatarFallback>GCP</AvatarFallback>
               </Avatar>
@@ -79,7 +79,7 @@ const Certifications = () => {
               </div>
             </div>
             <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
-              <Avatar>
+              <Avatar className="shadow-md">
                 <AvatarImage src="/ibm_logo.jpg" alt="ibm_logo" />
                 <AvatarFallback>IBM</AvatarFallback>
               </Avatar>
@@ -124,7 +124,7 @@ const Certifications = () => {
             </div> */}
           </div>
         </CardContent>
-        <CardFooter>
+        <CardFooter className="flex justify-center">
           <Link href="https://www.linkedin.com/in/nishchintmakode">
             <Button>More on LinkedIn</Button>
           </Link>

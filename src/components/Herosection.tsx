@@ -24,26 +24,38 @@ const HeroSection = () => {
             <img alt="Profile" className="rounded-full" src="/pfp.svg" />
           </div>
           <div className="flex justify-center space-x-2 mt-4">
-            <div className="flex justify-center space-x-1">
+            <div className="flex justify-center space-x-2">
               <Link
                 href="NISHCHINT_MAKODE_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="w-15">CV</Button>
+                <Button className="w-15 shadow">CV</Button>
               </Link>
               <Link href="mailto:nishchintsmakode@gmail.com">
-                <Button variant="ghost" size="icon">
+                <Button
+                  className="rounded-full shadow"
+                  variant="outline"
+                  size="icon"
+                >
                   <Mail className="h-5 w-5" />
                 </Button>
               </Link>
               <Link href="https://www.linkedin.com/in/nishchintmakode/">
-                <Button variant="ghost" size="icon">
+                <Button
+                  className="rounded-full shadow"
+                  variant="outline"
+                  size="icon"
+                >
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </Link>
               <Link href="https://www.github.com/nishchintmakode/">
-                <Button variant="ghost" size="icon">
+                <Button
+                  className="rounded-full shadow"
+                  variant="outline"
+                  size="icon"
+                >
                   <Github className="h-5 w-5" />
                 </Button>
               </Link>

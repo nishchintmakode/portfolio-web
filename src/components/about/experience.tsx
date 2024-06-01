@@ -32,7 +32,7 @@ const Experience = () => {
         <CardContent>
           <div className="space-y-2">
             <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
-              <Avatar>
+              <Avatar className="shadow-md">
                 <AvatarImage src="/uob.jpg" alt="uob_logo" />
                 <AvatarFallback>UOB</AvatarFallback>
               </Avatar>
@@ -47,7 +47,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
-              <Avatar>
+              <Avatar className="shadow-md">
                 <AvatarImage src="/revature.jpg" alt="revature_logo" />
                 <AvatarFallback>REV</AvatarFallback>
               </Avatar>
@@ -62,7 +62,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
-              <Avatar>
+              <Avatar className="shadow-md">
                 <AvatarImage src="/agile.jpg" alt="agile_logo" />
                 <AvatarFallback>AGI</AvatarFallback>
               </Avatar>
@@ -77,7 +77,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
-              <Avatar>
+              <Avatar className="shadow-md">
                 <AvatarImage src="/credy.jpg" alt="agile_logo" />
                 <AvatarFallback>CRE</AvatarFallback>
               </Avatar>
@@ -93,9 +93,11 @@ const Experience = () => {
             </div>
           </div>
         </CardContent>
-        <CardFooter>
+        <CardFooter className="flex justify-center">
           <Link href="https://www.linkedin.com/in/nishchintmakode">
-            <Button>More on LinkedIn</Button>
+            <Button className="rounded shadow" variant="default">
+              More on LinkedIn
+            </Button>
           </Link>
         </CardFooter>
       </Card>
@@ -114,7 +116,7 @@ const Experience = () => {
         <CardContent>
           <div className="space-y-2">
             <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
-              <Avatar>
+              <Avatar className="shadow-md">
                 <AvatarImage src="/uob.jpg" alt="uob_logo" />
                 <AvatarFallback>UOB</AvatarFallback>
               </Avatar>
@@ -131,7 +133,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="flex items-center rounded-md border p-1 gap-4 shadow-sm">
-              <Avatar>
+              <Avatar className="shadow-md">
                 <AvatarImage src="/rtmnu.jpg" alt="rtmnu_logo" />
                 <AvatarFallback>NU</AvatarFallback>
               </Avatar>

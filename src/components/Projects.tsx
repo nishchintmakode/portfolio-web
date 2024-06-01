@@ -83,7 +83,7 @@ const Projects = () => {
             </div>
           </div>
         </CardContent>
-        <CardFooter>
+        <CardFooter className="flex justify-center">
           <Link href="https://github.com/nishchintmakode">
             <Button>More on GitHub</Button>
           </Link>

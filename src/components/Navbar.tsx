@@ -41,33 +41,42 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <header className="w-full max-w-6xl">
+    <header className="w-full max-w-6xl bg-background border p-2 rounded-xl shadow opacity-95">
       <div className="flex justify-between items-center">
-        <div className="text-2xl font-bold">
+        <div className=" text-lg font-bold border rounded-full p-1 shadow">
           <Link href="/">NM</Link>
         </div>
         <div className="flex items-center space-x-4">
           <nav className="hidden md:flex space-x-4">
-            <Link href="#about" className="nav-link" onClick={handleLinkClick}>
+            <Link
+              href="#about"
+              className="nav-link cursor-default select-none items-center rounded-sm px-2 py-1.5 text-md outline-none bg-background hover:bg-accent hover:text-accent-foreground"
+              onClick={handleLinkClick}
+            >
               About
             </Link>
             <Link
               href="#certifications"
-              className="nav-link"
+              className="nav-link cursor-default select-none items-center rounded-sm px-2 py-1.5 text-md outline-none bg-background hover:bg-accent hover:text-accent-foreground"
               onClick={handleLinkClick}
             >
               Certifications
             </Link>
             <Link
               href="#projects"
-              className="nav-link"
+              className="nav-link cursor-default select-none items-center rounded-sm px-2 py-1.5 text-md outline-none bg-background hover:bg-accent hover:text-accent-foreground"
               onClick={handleLinkClick}
             >
               Projects
             </Link>
           </nav>
           <div className="relative md:hidden" ref={menuRef}>
-            <Button variant="outline" size="icon" onClick={handleMenuToggle}>
+            <Button
+              className="shadow"
+              variant="outline"
+              size="icon"
+              onClick={handleMenuToggle}
+            >
               <Menu className="text-gray-600 dark:text-gray-400" />
             </Button>
             <div
@@ -77,7 +86,7 @@ const Navbar = () => {
             >
               <a
                 href="#about"
-                className="relative flex cursor-default select-none items-center rounded-sm px-2.5 py-1.5 text-sm outline-none hover:bg-accent hover:text-accent-foreground"
+                className="relative flex cursor-default select-none items-center rounded-sm px-2.5 py-1.5 text-sm outline-none bg-background hover:bg-accent hover:text-accent-foreground"
                 onClick={handleLinkClick}
               >
                 About
@@ -98,7 +107,9 @@ const Navbar = () => {
               </a>
             </div>
           </div>
-          <ModeToggle />
+          <div className="rounded-md shadow">
+            <ModeToggle />
+          </div>
         </div>
       </div>
     </header>
