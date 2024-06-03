@@ -12,6 +12,28 @@ import { Button } from "./ui/button";
 import { FolderGit } from "lucide-react";
 import { ExternalLink } from "lucide-react";
 
+const projects = [
+  {
+    name: "Personality prediction using sentiment analysis",
+    description:
+      "Sentiment-based personality profiling, using CNN and LSTM models to predict Big Five traits.",
+    github:
+      "https://github.com/nishchintmakode/personality_prediction_with_sentiment_analysis",
+  },
+  {
+    name: "Lung disease detection using CNN",
+    description:
+      "Deep learning model, based on convolutional neural networks (CNNs), to classify lung diseases from X-ray images.",
+    github: "https://github.com/nishchintmakode/lung_disease_detection_cnn",
+  },
+  {
+    name: "Speech Emotion Recognition using MLPClassifier",
+    description:
+      "Multilayer Perceptron (MLP) classification model to detect emotions from human speech.",
+    github: "https://github.com/nishchintmakode/speech_emotion_recognition",
+  },
+];
+
 const Projects = () => {
   return (
     <section id="projects" className="w-full mb-8">
@@ -28,60 +50,21 @@ const Projects = () => {
           </CardTitle>
         </CardHeader>
         <CardContent className="grid grid-cols-1 gap-4">
-          <div className="flex items-center gap-4">
-            <div>
-              <div className="flex items-center font-medium">
-                Personality prediction using sentiment analysis
-                <Link
-                  href={
-                    "https://github.com/nishchintmakode/personality_prediction_with_sentiment_analysis"
-                  }
-                >
-                  <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
-                </Link>
-              </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                Sentiment-based personality profiling, using CNN and LSTM models
-                to predict Big Five traits.
+          {projects.map((project, index) => (
+            <div key={index} className="flex items-center gap-4">
+              <div>
+                <div className="flex items-center font-medium">
+                  {project.name}
+                  <Link href={project.github}>
+                    <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                  </Link>
+                </div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">
+                  {project.description}
+                </div>
               </div>
             </div>
-          </div>
-          <div className="flex items-center gap-4">
-            <div>
-              <div className="flex items-center font-medium">
-                Lung disease detection using CNN
-                <Link
-                  href={
-                    "https://github.com/nishchintmakode/lung_disease_detection_cnn"
-                  }
-                >
-                  <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
-                </Link>
-              </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                Deep learning model, based on convolutional neural networks
-                (CNNs), to classify lung diseases from X-ray images.
-              </div>
-            </div>
-          </div>
-          <div className="flex items-center gap-4">
-            <div>
-              <div className="flex items-center font-medium">
-                Speech Emotion Recognition using MLPClassifier
-                <Link
-                  href={
-                    "https://github.com/nishchintmakode/speech_emotion_recognition"
-                  }
-                >
-                  <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
-                </Link>
-              </div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">
-                Multilayer Perceptron (MLP) classification model to detect
-                emotions from human speech.
-              </div>
-            </div>
-          </div>
+          ))}
         </CardContent>
         <CardFooter className="flex justify-center">
           <Link href="https://github.com/nishchintmakode">
