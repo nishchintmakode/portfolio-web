@@ -63,7 +63,7 @@ const educationExperiences = [
 
 const Experience = () => {
   return (
-    <section className="w-full grid grid-cols-1 gap-4 mb-8">
+    <div className="w-full grid grid-cols-1 gap-6">
       <Card className="w-full rounded-lg border shadow">
         <CardHeader>
           <CardTitle className="space-y-2">
@@ -145,7 +145,7 @@ const Experience = () => {
           </div>
         </CardContent>
       </Card>
-    </section>
+    </div>
   );
 };
 
