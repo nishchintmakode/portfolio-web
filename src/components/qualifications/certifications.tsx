@@ -58,10 +58,7 @@ const Certifications = () => {
         <CardContent>
           <div className="space-y-2">
             {certifications.map((certification, index) => (
-              <div
-                key={index}
-                className="flex items-center rounded-md border p-1 gap-4 shadow-sm"
-              >
+              <div key={index} className="flex items-center p-1 gap-4">
                 <Avatar className="shadow-md">
                   <AvatarImage
                     src={certification.logo}

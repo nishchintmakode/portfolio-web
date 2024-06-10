@@ -79,10 +79,7 @@ const Experience = () => {
         <CardContent>
           <div className="space-y-2">
             {workExperiences.map((experience, index) => (
-              <div
-                key={index}
-                className="flex items-center rounded-md border p-1 gap-4 shadow-sm"
-              >
+              <div key={index} className="flex items-center p-1 gap-4">
                 <Avatar className="shadow-md">
                   <AvatarImage src={experience.logo} alt={experience.logoAlt} />
                   <AvatarFallback>{experience.logoAlt}</AvatarFallback>
@@ -123,10 +120,7 @@ const Experience = () => {
         <CardContent>
           <div className="space-y-2">
             {educationExperiences.map((education, index) => (
-              <div
-                key={index}
-                className="flex items-center rounded-md border p-1 gap-4 shadow-sm"
-              >
+              <div key={index} className="flex items-center p-1 gap-4">
                 <Avatar className="shadow-md">
                   <AvatarImage src={education.logo} alt={education.logoAlt} />
                   <AvatarFallback>{education.logoAlt}</AvatarFallback>
