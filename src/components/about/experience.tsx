@@ -22,13 +22,6 @@ const workExperiences = [
     logoAlt: "UOB",
   },
   {
-    title: "Software Developer",
-    company: "Revature",
-    dateRange: "Mar '22 - Nov '22",
-    logo: "/revature.jpg",
-    logoAlt: "REV",
-  },
-  {
     title: "Project Intern",
     company: "Agile Connects Pvt. Ltd.",
     dateRange: "Aug '21 - Feb '22",
@@ -36,7 +29,7 @@ const workExperiences = [
     logoAlt: "AGI",
   },
   {
-    title: "Python Development Intern",
+    title: "Backend Development Intern",
     company: "Credy",
     dateRange: "May '20 - Jan '21",
     logo: "/credy.jpg",
