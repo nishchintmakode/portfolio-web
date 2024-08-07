@@ -34,7 +34,7 @@ const certifications = [
     title: "Full Stack Software Developer",
     issuer: "IBM",
     dateRange: "Apr '24",
-    link: "https://www.coursera.org/account/accomplishments/specialization/D3KPQR5FDEQK",
+    link: "https://www.credly.com/badges/6e18d361-eac9-4469-9bd8-e5fe79818a37",
     logo: "/ibm_logo.jpg",
     logoAlt: "IBM",
   },

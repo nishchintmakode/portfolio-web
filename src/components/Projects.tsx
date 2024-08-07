@@ -32,6 +32,24 @@ const projects = [
       "Multilayer Perceptron (MLP) classification model to detect emotions from human speech.",
     github: "https://github.com/nishchintmakode/speech_emotion_recognition",
   },
+  {
+    name: "Full Stack Notes App",
+    description:
+      "Full stack Notes App with user authentication, CRUD functionalities, pinning, and efficient search capabilities for personal productivity.",
+    github: "https://github.com/nishchintmakode/notes",
+  },
+  {
+    name: "Book Review Application",
+    description:
+      "Secure book review app using JWT and session-level authentication, enabling users to access book info and manage reviews",
+    github: "https://github.com/nishchintmakode/expressBookReviews",
+  },
+  {
+    name: "Budget Allocation Application",
+    description:
+      "Budgeting application containing editable budget fields with validation to ensure limits and prevent values below spent amounts.",
+    github: "https://github.com/nishchintmakode/ejtos-react_budget_app",
+  },
 ];
 
 const Projects = () => {
