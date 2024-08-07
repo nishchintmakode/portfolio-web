@@ -41,7 +41,7 @@ const projects = [
   {
     name: "Book Review Application",
     description:
-      "Secure book review app using JWT and session-level authentication, enabling users to access book info and manage reviews",
+      "Secure book review app using JWT and session-level authentication, enabling users to access book info and manage reviews.",
     github: "https://github.com/nishchintmakode/expressBookReviews",
   },
   {
