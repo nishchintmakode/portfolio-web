@@ -31,7 +31,7 @@ const workExperiences = [
   {
     title: "Backend Development Intern",
     company: "Credy",
-    dateRange: "May '20 - Jan '21",
+    dateRange: "Nov '20 - Jan '21",
     logo: "/credy.jpg",
     logoAlt: "CRE",
   },
