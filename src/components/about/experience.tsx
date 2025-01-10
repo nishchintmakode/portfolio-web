@@ -57,7 +57,7 @@ const educationExperiences = [
 const Experience = () => {
   return (
     <div className="w-full grid grid-cols-1 gap-6">
-      <Card className="w-full rounded-lg border shadow">
+      <Card className="w-full rounded-lg border shadow-sm">
         <CardHeader>
           <CardTitle className="space-y-2">
             <div className="flex items-center">
@@ -73,7 +73,7 @@ const Experience = () => {
           <div className="space-y-2">
             {workExperiences.map((experience, index) => (
               <div key={index} className="flex items-center p-1 gap-4">
-                <Avatar className="shadow-md">
+                <Avatar className="border shadow-md">
                   <AvatarImage src={experience.logo} alt={experience.logoAlt} />
                   <AvatarFallback>{experience.logoAlt}</AvatarFallback>
                 </Avatar>
@@ -90,15 +90,8 @@ const Experience = () => {
             ))}
           </div>
         </CardContent>
-        <CardFooter className="flex justify-center">
-          <Link href="https://www.linkedin.com/in/nishchintmakode">
-            <Button className="rounded shadow" variant="default">
-              More on LinkedIn
-            </Button>
-          </Link>
-        </CardFooter>
       </Card>
-      <Card className="w-full rounded-lg border shadow">
+      <Card className="w-full rounded-lg border shadow-sm">
         <CardHeader>
           <CardTitle className="space-y-2">
             <div className="flex items-center">

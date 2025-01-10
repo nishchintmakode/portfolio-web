@@ -47,18 +47,20 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <header className="w-full max-w-6xl bg-background border p-2 rounded-xl shadow opacity-95">
+    <header className="w-full max-w-6xl bg-background p-0 opacity-95">
       <div className="flex justify-between items-center">
-        <div className="text-lg font-bold border rounded-full p-1 shadow">
-          <Link href="/">NM</Link>
+      <Link href="/">
+        <div className="text-lg border rounded-full shadow-sm font-bold p-1">
+          NM
         </div>
+      </Link>
         <div className="flex items-center space-x-4">
-          <nav className="hidden md:flex space-x-4">
+          <nav className="hidden md:flex space-x-1">
             {links.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="nav-link cursor-default select-none items-center rounded-sm px-2 py-1.5 text-md outline-none bg-background hover:bg-accent hover:text-accent-foreground"
+                className="nav-link cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-md outline-none bg-background hover:bg-accent hover:text-accent-foreground"
                 onClick={handleLinkClick}
               >
                 {link.label}
@@ -67,7 +69,7 @@ const Navbar = () => {
           </nav>
           <div className="relative md:hidden" ref={menuRef}>
             <Button
-              className="shadow"
+              className="shadow-sm"
               variant="outline"
               size="icon"
               onClick={handleMenuToggle}
@@ -91,7 +93,7 @@ const Navbar = () => {
               ))}
             </div>
           </div>
-          <div className="rounded-md shadow">
+          <div className="rounded-md shadow-sm">
             <ModeToggle />
           </div>
         </div>
