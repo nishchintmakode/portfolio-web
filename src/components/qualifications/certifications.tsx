@@ -43,7 +43,7 @@ const certifications = [
 const Certifications = () => {
   return (
     <div className="md:mt-2 md:w-1/1">
-      <Card className="w-full rounded-lg border shadow-sm">
+      <Card className="w-full rounded-lg border shadow">
         <CardHeader>
           <CardTitle className="space-y-2">
             <div className="flex items-center">
@@ -56,36 +56,39 @@ const Certifications = () => {
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="space-y-1">
+          <div className="space-y-2">
             {certifications.map((certification, index) => (
-              <div key={index}>
-                <Link href={certification.link} target="_blank" rel="noopener noreferrer">
-                  <div className="flex items-center p-2 gap-4 outline-none rounded-xl bg-background hover:bg-accent hover:text-accent-foreground">
-                    <Avatar className="border shadow-md">
-                      <AvatarImage
-                        src={certification.logo}
-                        alt={certification.logoAlt}
-                      />
-                      <AvatarFallback>{certification.logoAlt}</AvatarFallback>
-                    </Avatar>
-                    <div className="flex-1">
-                      <div className="flex items-center font-medium">
-                        {certification.title}
-                        <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span>{certification.issuer}</span>
-                        <div className="flex items-center gap-1">
-                          <span>{certification.dateRange}</span>
-                        </div>
-                      </div>
+              <div key={index} className="flex items-center p-1 gap-4">
+                <Avatar className="shadow-md">
+                  <AvatarImage
+                    src={certification.logo}
+                    alt={certification.logoAlt}
+                  />
+                  <AvatarFallback>{certification.logoAlt}</AvatarFallback>
+                </Avatar>
+                <div className="flex-1">
+                  <div className="flex items-center font-medium">
+                    {certification.title}
+                    <Link href={certification.link}>
+                      <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                    </Link>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span>{certification.issuer}</span>
+                    <div className="flex items-center gap-1">
+                      <span>{certification.dateRange}</span>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
             ))}
           </div>
         </CardContent>
+        <CardFooter className="flex justify-center">
+          <Link href="https://www.linkedin.com/in/nishchintmakode">
+            <Button>More on LinkedIn</Button>
+          </Link>
+        </CardFooter>
       </Card>
     </div>
   );

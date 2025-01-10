@@ -67,32 +67,26 @@ const Projects = () => {
             </div>
           </CardTitle>
         </CardHeader>
-        <CardContent className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <CardContent className="grid grid-cols-1 gap-4">
           {projects.map((project, index) => (
-            <div key={index}>
-              <Link href={project.github} target="_blank" rel="noopener noreferrer">
-                <div className="flex items-center p-2 outline-none rounded-xl bg-background hover:bg-accent hover:text-accent-foreground">
-                  <div>
-                    <div className="flex items-center font-medium">
-                      {project.name}
-                      <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
-                    </div>
-                    <div className="text-sm text-gray-500 dark:text-gray-400">
-                      {project.description}
-                    </div>
-                  </div>
+            <div key={index} className="flex items-center gap-4">
+              <div>
+                <div className="flex items-center font-medium">
+                  {project.name}
+                  <Link href={project.github}>
+                    <ExternalLink className="w-4 h-4 ml-2 text-gray-500 dark:text-gray-400" />
+                  </Link>
                 </div>
-              </Link>
+                <div className="text-sm text-gray-500 dark:text-gray-400">
+                  {project.description}
+                </div>
+              </div>
             </div>
           ))}
         </CardContent>
         <CardFooter className="flex justify-center">
-          <Link 
-            href="https://github.com/nishchintmakode"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="rounded-xl border shadow-sm" variant="secondary">More</Button>
+          <Link href="https://github.com/nishchintmakode">
+            <Button>More on GitHub</Button>
           </Link>
         </CardFooter>
       </Card>
