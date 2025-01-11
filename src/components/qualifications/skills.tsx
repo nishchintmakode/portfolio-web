@@ -63,7 +63,7 @@ const skills3 = [
 const Skills = () => {
   return (
     <div className="md:mt-2 md:w-1/1">
-      <Card className="w-full rounded-lg border shadow">
+      <Card className="w-full rounded-lg border shadow-sm">
         <CardHeader>
           <CardTitle className="space-y-2">
             <div className="flex items-center">

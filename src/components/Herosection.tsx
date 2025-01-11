@@ -8,11 +8,11 @@ const HeroSection = () => {
     <section id="home" className="w-full mb-8">
       <div className="flex flex-col md:flex-row md:space-x-8">
         <div className="flex-1 space-y-4 mb-4 md:mb-0">
-          <div className="md:mt-2 md:w-1/2">
-            <div className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
+          <div className="md:mt-2 md:w-2/3">
+            <div className="text-4xl font-bold mt-6 md:mt-0 md:text-6xl">
               Hi, I&#39;m Nishchint!
             </div>
-            <div className="text-lg mt-4 mb-6 md:text-2xl">
+            <div className="text-lg text-justify mt-4 mb-6 md:text-2xl">
               I&#39;m a <span className="font-bold">Software Engineer </span>
               based in Birmingham, UK. Working towards creating software that
               makes life easier and more meaningful.
@@ -30,29 +30,38 @@ const HeroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="w-15 shadow">CV</Button>
+                <Button className="w-15 rounded-xl shadow-sm">CV</Button>
               </Link>
-              <Link href="mailto:nishchintsmakode@gmail.com">
+              <Link 
+                href="mailto:nishchintsmakode@gmail.com">
                 <Button
-                  className="rounded-full shadow"
+                  className="rounded-xl shadow-sm"
                   variant="outline"
                   size="icon"
                 >
                   <Mail className="h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="https://www.linkedin.com/in/nishchintmakode/">
+              <Link 
+                href="https://www.linkedin.com/in/nishchintmakode/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
-                  className="rounded-full shadow"
+                  className="rounded-xl shadow-sm"
                   variant="outline"
                   size="icon"
                 >
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="https://www.github.com/nishchintmakode/">
+              <Link 
+                href="https://www.github.com/nishchintmakode/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
-                  className="rounded-full shadow"
+                  className="rounded-xl shadow-sm"
                   variant="outline"
                   size="icon"
                 >
