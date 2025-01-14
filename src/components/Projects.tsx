@@ -33,10 +33,22 @@ const projects = [
     github: "https://github.com/nishchintmakode/speech_emotion_recognition",
   },
   {
+    name: "Go File Search (gofs)",
+    description:
+      "CLI utility tool for efficient local file searching, built using Go.",
+    github: "https://github.com/cope-ai/gofs",
+  },
+  {
     name: "Full Stack Notes App",
     description:
       "Full stack Notes App with user authentication, CRUD functionalities, pinning, and efficient search capabilities for personal productivity.",
     github: "https://github.com/nishchintmakode/notes",
+  },
+  {
+    name: "HowNetWorks",
+    description:
+      "A dynamic, interactive web application designed to educate and explore how networks operate.",
+    github: "https://github.com/cope-ai/hownetworks",
   },
   {
     name: "Book Review Application",
@@ -55,7 +67,7 @@ const projects = [
 const Projects = () => {
   return (
     <section id="projects" className="w-full mb-8">
-      <Card className="rounded-lg border shadow">
+      <Card className="rounded-lg border shadow-sm">
         <CardHeader>
           <CardTitle className="space-y-2">
             <div className="flex items-center">
@@ -88,7 +100,7 @@ const Projects = () => {
         </CardContent>
         <CardFooter className="flex justify-center">
           <Link 
-            href="https://github.com/nishchintmakode"
+            href="https://github.com/nishchintmakode?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
           >

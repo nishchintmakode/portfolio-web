@@ -56,7 +56,7 @@ const educationExperiences = [
 
 const Experience = () => {
   return (
-    <div className="w-full grid grid-cols-1 gap-6">
+    <div className="w-full grid grid-cols-1 gap-4">
       <Card className="w-full rounded-lg border shadow-sm">
         <CardHeader>
           <CardTitle className="space-y-2">

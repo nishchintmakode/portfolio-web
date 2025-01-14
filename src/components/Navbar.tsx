@@ -93,7 +93,7 @@ const Navbar = () => {
               ))}
             </div>
           </div>
-          <div className="rounded-md shadow-sm">
+          <div className="shadow-sm">
             <ModeToggle />
           </div>
         </div>
