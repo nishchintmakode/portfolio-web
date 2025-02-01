@@ -72,7 +72,7 @@ const Projects = () => {
           <CardTitle className="space-y-2">
             <div className="flex items-center">
               <FolderGit className="mr-2" />
-              Projects
+              <h2 className="text-xl">Projects</h2>
             </div>
             <div className="flex w-full justify-center items-center">
               <Separator />

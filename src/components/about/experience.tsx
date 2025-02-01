@@ -62,7 +62,7 @@ const Experience = () => {
           <CardTitle className="space-y-2">
             <div className="flex items-center">
               <Briefcase className="mr-2" />
-              Work
+              <h2 className="text-xl">Work</h2>
             </div>
             <div className="flex w-full justify-center items-center">
               <Separator />
@@ -96,7 +96,7 @@ const Experience = () => {
           <CardTitle className="space-y-2">
             <div className="flex items-center">
               <GraduationCap className="mr-2" />
-              Education
+              <h2 className="text-xl">Education</h2>
             </div>
             <div className="flex w-full justify-center items-center">
               <Separator />

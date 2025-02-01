@@ -47,7 +47,7 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <header className="w-full max-w-6xl bg-background p-0 opacity-95">
+    <header className="w-full max-w-6xl bg-background p-0 opacity-100">
       <div className="flex justify-between items-center">
       <Link href="/">
         <div className="text-lg border rounded-full shadow-sm font-bold p-1">
@@ -60,7 +60,7 @@ const Navbar = () => {
               <Link
                 key={link.href}
                 href={link.href}
-                className="nav-link cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-md outline-none bg-background hover:bg-accent hover:text-accent-foreground"
+                className="nav-link cursor-pointer hover:underline select-none items-center rounded-md px-2 py-1.5 text-md outline-none bg-background hover:bg-accent hover:text-accent-foreground"
                 onClick={handleLinkClick}
               >
                 {link.label}
@@ -69,12 +69,12 @@ const Navbar = () => {
           </nav>
           <div className="relative md:hidden" ref={menuRef}>
             <Button
-              className="shadow-sm"
+              className="rounded-lg shadow-sm"
               variant="outline"
               size="icon"
               onClick={handleMenuToggle}
             >
-              <Menu className="text-gray-600 dark:text-gray-400" />
+              <Menu className="text-black dark:text-white" />
             </Button>
             <div
               className={`absolute right-0 mt-2 w-40 px-1 py-1 bg-popover border rounded-md shadow-md transform-gpu transition-transform duration-200 ease-in-out ${
@@ -85,7 +85,7 @@ const Navbar = () => {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="relative flex cursor-default select-none items-center rounded-sm px-2.5 py-1.5 text-sm outline-none bg-background hover:bg-accent hover:text-accent-foreground"
+                  className="relative flex cursor-pointer select-none items-center rounded-sm px-2.5 py-1.5 text-sm outline-none bg-background hover:bg-accent hover:text-accent-foreground"
                   onClick={handleLinkClick}
                 >
                   {link.label}

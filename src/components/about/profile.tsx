@@ -11,7 +11,7 @@ const Profile = () => {
           <CardTitle className="space-y-2">
             <div className="flex items-center">
               <UserRound className="mr-2" />
-              About me
+              <h2 className="text-xl">About me</h2>
             </div>
             <div className="flex w-full justify-center items-center">
               <Separator />
@@ -20,22 +20,18 @@ const Profile = () => {
         </CardHeader>
         <CardContent>
           <p className="text-justify">
-            Hello, I&#39;m Nishchint, a{" "}
-            <span className="font-bold">{"results-driven"}</span>,
-            <span className="font-bold">{" highly ambitious"}</span>, and
-            <span className="font-bold">{" self-motivated"}</span>, 
-            software engineer based in Birmingham, UK. With an MSc in Advanced Computer Science and expertise 
-            in Python, Java, and full-stack development, I am passionate about leveraging technology to create impactful solutions.
+            Hello, I&#39;m Nishchint, a Software Engineer with an <span className="font-bold">MSc in Advanced Computer Science</span> and an expertise in modern cloud technologies.{" "}
+            <span className="font-bold">{" GCP-certified "}</span>specialist, skilled in
+            <span className="font-bold">{" CI/CD pipelines"}</span>,  
+            <span className="font-bold">{" cloud infrastructure management"}</span>,  
+            <span className="font-bold">{" containerization"}</span>, and
+            <span className="font-bold">{" automation"}</span>, with 
+            proficiency in leveraging GCP services to design and deliver scalable, cost-efficient, and highly available cloud-based solutions.
           </p>
           <br />
           <p className="text-justify">
-            I&#39;m a passionate computer science enthusiast with a strong interest in Artificial Intelligence, Machine Learning, and DevOps. 
+            I&#39;m a passionate computer science enthusiast with a strong interest in Cloud Technologies, DevOps, and AI/ML. 
             Currently, I&#39;m building &#39;gofs&#39; (Go file-search), a CLI utility tool for efficient local file searching, while also learning Go and Rust.
-          </p>
-          <br />
-          <p className="text-justify">
-          My technical skills include proficiency in modern frameworks like React and Django, as well as cloud computing and DevOps tools such as Kubernetes and Docker. 
-          I am committed to continuous learning and personal growth, embracing new challenges as opportunities for development.
           </p>
           <br />
           <p className="text-justify">

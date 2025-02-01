@@ -48,7 +48,7 @@ const Certifications = () => {
           <CardTitle className="space-y-2">
             <div className="flex items-center">
               <BadgeCheck className="mr-2" />
-              Certifications
+              <h2 className="text-xl">Certifications</h2>
             </div>
             <div className="flex w-full justify-center items-center">
               <Separator />

@@ -18,38 +18,38 @@ const skills1 = [
   "C++",
   "Go",
   "Rust",
-  "HTML",
-  "CSS",
-  "JavaScript",
   "TypeScript",
+  "JavaScript",
   "SQL",
   "PHP",
   "Shell scripting",
 ];
 
 const skills2 = [
-  "VS Code",
+  "GCP",
   "Git Version Control",
   "Postman",
   "Kubernetes",
   "Docker",
+  "Terraform",
+  "Jenkins",
+  "GitHub Actions",
 ];
 
 const skills3 = [
   "Linux",
   "GitHub",
   "Flutter",
-  "React",
+  "React.js",
   "Node.js",
   "Express.js",
   "Next.js",
-  "RESTful API",
-  "GraphQL",
-  "MongoDB",
-  "Firebase",
-  "Spring Boot",
   "Flask",
   "Django",
+  "Spring Boot",
+  "RESTful API",
+  "MongoDB",
+  "Firebase",
   "MySQL",
   "PostgreSQL",
   "Neural networks",
@@ -68,7 +68,7 @@ const Skills = () => {
           <CardTitle className="space-y-2">
             <div className="flex items-center">
               <Code className="mr-2" />
-              Skills
+              <h2 className="text-xl">Skills</h2>
             </div>
             <div className="flex w-full justify-center items-center">
               <Separator />
