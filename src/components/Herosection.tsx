@@ -41,10 +41,10 @@ const HeroSection = () => {
       <div className="flex flex-col md:flex-row md:gap-8 md:items-center md:justify-between space-y-4">
         <div className="md:mt-2 md:w-2/3 mb-4 space-y-4">
           <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-6xl">
-            Hi, I'm Nishchint!
+            Hi, I&#39;m Nishchint!
           </h1>
           <div className="text-lg md:text-2xl">
-            I'm a <span className="font-bold">GCP-certified software engineer</span> with over a year of experience in Cloud-native development and Cloud Technologies.
+            I&#39;m a <span className="font-bold">GCP-certified software engineer</span> with over a year of experience in Cloud-native development and Cloud Technologies.
           </div>
         </div>
 
