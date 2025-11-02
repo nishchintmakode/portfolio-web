@@ -12,7 +12,7 @@ const Projects = () => {
     <footer className="w-full max-w-6xl">
       <Separator className="my-4" />
       <div className="flex justify-between items-center">
-        <span className="text-sm text-gray-500">© 2024 Nishchint Makode</span>
+        <span className="text-sm text-gray-500">© 2025 Nishchint Makode</span>
         <div className="flex space-x-2">
         <TooltipProvider>
                 <Tooltip>

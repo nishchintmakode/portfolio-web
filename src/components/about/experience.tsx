@@ -15,6 +15,13 @@ import { Button } from "../ui/button";
 
 const workExperiences = [
   {
+    title: "Assistant Professor",
+    company: "Nagpur Institute of Technology",
+    dateRange: "Jun '25 - Present",
+    logo: "/nit.png",
+    logoAlt: "NIT",
+  },
+  {
     title: "IT AV Assistant",
     company: "University of Birmingham",
     dateRange: "Aug '23 - Jan '24",

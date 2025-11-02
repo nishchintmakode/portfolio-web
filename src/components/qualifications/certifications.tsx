@@ -19,7 +19,7 @@ const certifications = [
     issuer: "Google Cloud",
     dateRange: "Mar '24 - Mar '27",
     link: "https://www.credly.com/badges/a03f0ac2-2f43-491a-a1fc-b888b395f991",
-    logo: "/google_cloud_logo.jpg",
+    logo: "/gcpace.png",
     logoAlt: "GCP",
   },
   {
@@ -27,7 +27,7 @@ const certifications = [
     issuer: "Google Cloud",
     dateRange: "Mar '24 - Mar '27",
     link: "https://www.credly.com/badges/798713ee-7156-4401-b8d4-a537274821d5",
-    logo: "/google_cloud_logo.jpg",
+    logo: "/gcpcdl.png",
     logoAlt: "GCP",
   },
   {

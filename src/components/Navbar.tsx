@@ -50,7 +50,7 @@ const Navbar = () => {
     <header className="w-full max-w-6xl bg-background p-0 opacity-100">
       <div className="flex justify-between items-center">
       <Link href="/">
-        <div className="text-lg border rounded-full shadow-sm font-bold p-1">
+        <div className="text-lg border-2 border-black-900 rounded-full shadow-lg font-bold p-2 hover:bg-accent hover:text-accent-foreground">
           NM
         </div>
       </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
               <Link
                 key={link.href}
                 href={link.href}
-                className="nav-link cursor-pointer hover:underline select-none items-center rounded-md px-2 py-1.5 text-md outline-none bg-background hover:bg-accent hover:text-accent-foreground"
+                className="nav-link cursor-pointer select-none items-center rounded-md px-2 py-1.5 text-md outline-none bg-background hover:bg-accent hover:text-accent-foreground"
                 onClick={handleLinkClick}
               >
                 {link.label}
