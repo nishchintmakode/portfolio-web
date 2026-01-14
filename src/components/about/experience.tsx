@@ -35,13 +35,6 @@ const workExperiences = [
     logo: "/agile.jpg",
     logoAlt: "AGI",
   },
-  {
-    title: "Backend Development Intern",
-    company: "Credy",
-    dateRange: "Nov '20 - Jan '21",
-    logo: "/credy.jpg",
-    logoAlt: "CRE",
-  },
 ];
 
 const educationExperiences = [
